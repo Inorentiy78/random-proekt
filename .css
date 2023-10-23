@@ -1,0 +1,60 @@
+1. Стилизация заголовка:
+
+css
+h1 {
+    color: #333; /* Цвет текста */
+    font-size: 24px; /* Размер шрифта */
+    font-weight: bold; /* Жирный текст */
+}
+
+
+2. Стилизация фона:
+
+css
+body {
+    background-color: #f0f0f0; /* Цвет фона страницы */
+}
+
+
+3. Создание кнопки:
+
+css
+.button {
+    background-color: #007bff; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px 20px; /* Внутренние отступы */
+    border: none; /* Убираем границу */
+    border-radius: 4px; /* Скругленные углы */
+    cursor: pointer; /* Изменение курсора при наведении */
+}
+
+
+4. Стилизация ссылок:
+
+css
+a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #007bff; /* Цвет текста ссылок */
+    transition: color 0.3s; /* Плавное изменение цвета при наведении */
+}
+
+a:hover {
+    color: #0056b3; /* Новый цвет текста при наведении */
+}
+
+
+5. Создание анимации:
+
+css
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.element {
+    animation: fadeIn 1s ease-in-out; /* Применение анимации */
+}
